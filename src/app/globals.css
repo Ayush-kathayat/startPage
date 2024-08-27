@@ -1,3 +1,4 @@
+@import url(https://fonts.bunny.net/css?family=ballet:400|bruno-ace-sc:400|lacquer:400);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,10 +25,12 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+    font-family: 'Lacquer', display;
+  }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
+
